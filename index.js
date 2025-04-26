@@ -180,13 +180,3 @@ function removefromlocalstorage(id, value) {
 function getlocalstorage() {
     return localStorage.getItem('list') ? JSON.parse(localStorage.getItem('list')) : [];
 }
-
-
-// localStorage.clear();
-// localStorage.setItem('orange', JSON.stringify(['item1', 'item2']));
-// const orange = JSON.parse(localStorage.getItem('orange'));
-// console.log(orange);
-// localStorage.removeItem('orange');
-
-// const localitem = {id:id, value:value};
-// const localitem = {id, value};  shortened ver of assigning
